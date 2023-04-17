@@ -13,7 +13,7 @@ public class JdbcSelectApp {
 		String username = "root";
 		String password = "root";
 
-		Connection connection = DriverManager.getConnection(url, username, pasword);
+		Connection connection = DriverManager.getConnection(url, username, password);
 		System.out.println("Connection object is created:: " + connection);
 
 		Statement statement = connection.createStatement();
