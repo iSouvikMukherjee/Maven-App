@@ -21,7 +21,7 @@ public class JdbcSelectApp {
 
 		String sqlSelectQuery = "select eid,ename,eage,eaddress from employee";
 		ResultSet resultSet = statement.executeQuery(sqlSelectQuery);
-		System.out.println("ResultSet object is created:: " + resultSet);
+		System.out.println("ResultSet object is created :: " + resultSet);
 
 		System.out.println("EID\tENAME\tEAGE\tEADDRESS");
 		while (resultSet.next()) {
