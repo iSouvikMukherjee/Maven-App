@@ -1,1 +1,1 @@
-## Maven app (Java)
+## Maven app (Java SpringBoot)
